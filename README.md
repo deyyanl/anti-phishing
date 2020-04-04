@@ -45,3 +45,8 @@ that from the network analysis, when you log in, only security vulnerability you
 
 # Dependecies
 - [lxml](https://lxml.de)
+- [requests]
+
+## Credits
+- [deyyanl](https://github.com/deyyanl)
+- [Minlor](https://github.com/Minlor)
