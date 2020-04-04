@@ -49,12 +49,10 @@ proxy_pool = cycle(fetchedProxies)
 for name in names:
     # Get proxy
     proxy_to_use = next(proxy_pool)
-	# Extra string the name using random generation
+	# Extra string for the name using random generation
     name_extra = ''.join(random.choice(string.digits))
 
-    # Generate fake username
-	username = name.lower() + name_extra + '@yahoo.com'
-	# Generate fake password
+	username = name.lower() + name_extra + '@gmail.com'
     password = ''.join(random.choice(chars) for i in range(8))
 
     try: 
@@ -72,4 +70,4 @@ for name in names:
         print("Skipping the proxy. Connection error")
     
 
-	print 'Spamming with: UN: %s and PASS: %s' % (username, password)
+	print("Spamming with: UN: %s and PASS: %s" % (username, password))
