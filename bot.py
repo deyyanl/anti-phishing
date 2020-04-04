@@ -52,7 +52,7 @@ for name in names:
 	# Extra string for the name using random generation
     name_extra = ''.join(random.choice(string.digits))
 
-	username = name.lower() + name_extra + '@gmail.com'
+    username = name.lower() + name_extra + '@gmail.com'
     password = ''.join(random.choice(chars) for i in range(8))
 
     try: 
