@@ -70,4 +70,4 @@ for name in names:
         print("Skipping the proxy. Connection error")
     
 
-	print("Spamming with: UN: %s and PASS: %s" % (username, password))
+	#print("Spamming with: UN: %s and PASS: %s", %(username, password))
