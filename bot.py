@@ -69,5 +69,4 @@ for name in names:
     except: 
         print("Skipping the proxy. Connection error")
     
-
-	print("Spamming with: UN: %s and PASS: %s" % (username, password))
+    print(f"Spamming with: UN: {username} and PASS: {password}")
